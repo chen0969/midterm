@@ -25,9 +25,14 @@ footer{
 h1{
     font-size: 3rem;
     color: darkblue;
-    font-weight: 900;
+    font-weight: 500;
     margin: 5% 0 0 0;
     font-family: 'Dela Gothic One', sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 nav{
@@ -44,11 +49,32 @@ nav, ul{
     background-color: aqua;
 }
 
+ul{
+    height: 90%;
+}
+
+span{
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+}
+
 /*ids*/
 #borad{
     height: 80%;
     width: 100%;
     background-color: beige;
+}
+
+#li-c{
+    border-left: 10px;
+    border-right: 10px;
+    border-color: black;
+    border-style: solid;
 }
 
 #life-div{
