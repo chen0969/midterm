@@ -1,0 +1,52 @@
+/* root setting */
+body, header, footer, #borad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Philosopher', sans-serif;
+}
+
+header, footer, main{
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+header{
+    height: 40vh;
+}
+
+footer{
+    height: 20vh;
+}
+
+
+/* items */
+h1{
+    font-size: 3rem;
+    color: darkblue;
+    font-weight: 900;
+    margin: 5% 0 0 0;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+nav{
+    height: 20%;
+}
+
+nav, ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    background-color: aqua;
+}
+
+/*ids*/
+#borad{
+    height: 80%;
+    width: 100%;
+    background-color: beige;
+}
