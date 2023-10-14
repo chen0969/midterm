@@ -124,7 +124,11 @@ textarea{
     align-items: center;
     flex-direction: row;
     width: auto;
-    background-color: aliceblue;
+    margin: 10px;
+}
+
+#formradio div input{
+    width: auto;
 }
 
 #submit{
@@ -144,4 +148,11 @@ textarea{
     border-style: solid;
     border-color: black;
     border-width: 2px;
+}
+
+.fitwidth{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: auto;
 }
