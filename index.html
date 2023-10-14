@@ -72,12 +72,30 @@
                 <h2>Contact to learn more</h2>
                 <div>
                     <form class="ct-f">
+                        <!-- basic info -->
                         <label for="name">Your Name</label>
-                        <input name="name" id="name" type="text" value="Jhon wick">
+                        <input name="name" id="name" type="text" value="Jhon Wick">
                         <label for="email">Your Email</label>
                         <input name="email" id="email" type="text" value="muffindog@gmail.com">
                         <label for="message">Your Message</label>
-                        <textarea name="message" rows="10" cols="30"></textarea>
+                        <textarea name="message"></textarea>
+                        <!-- radio option -->
+                        <label>Would you like to visit Jhon Wick's muffin?</label>
+                        <div id="formradio">
+                            <div>
+                                <input type="radio" id="yes" name="visit" value="yes">
+                                <label for="yes">Yes</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="no" name="visit" value="no">
+                                <label for="no">No</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="nodie" name="visit" value="nmodie">
+                                <label for="nodie">I don't want to die</label>
+                            </div>
+                        </div>
+                        <input id="submit" type="submit" value="Submit">
                     </form>
                 </div>
             </section>

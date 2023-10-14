@@ -70,6 +70,15 @@ section{
     flex-direction: column;
 }
 
+input, textarea{
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+textarea{
+    height: 30vh;
+}
+
 /*ids*/
 #borad{
     height: 90%;
@@ -100,6 +109,29 @@ section{
     background-color: #ffffff00;
     margin: 30px 10px 30px 20px;
 }
+
+#formradio{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+#formradio div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    background-color: aliceblue;
+}
+
+#submit{
+    width: auto;
+}
+
+/* class */
 
 .ct-f{
     display: flex;
