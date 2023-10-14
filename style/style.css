@@ -135,6 +135,12 @@ textarea{
     width: auto;
 }
 
+#muffin-p{
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
 /* class */
 
 .ct-f{
