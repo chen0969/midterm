@@ -1,3 +1,11 @@
+/* animation keyframes */
+
+@keyframes z-in {
+    0%{opacity: 0; transform: scale(0);}
+    20%{opacity: 0.8; transform: scale(1.2);}
+    100%{opacity: 1; transform: scale(1);}
+}
+
 /* root setting */
 body, header, footer, #borad{
     display: flex;
@@ -5,6 +13,10 @@ body, header, footer, #borad{
     align-items: center;
     flex-direction: column;
     font-family: 'Philosopher', sans-serif;
+}
+
+body{
+    background-color: #ffc267;
 }
 
 header, footer, main{
@@ -28,6 +40,8 @@ h1{
     font-weight: 500;
     margin: 5% 0 0 0;
     font-family: 'Dela Gothic One', sans-serif;
+    text-shadow: 2px 2px 10px #866431;
+    animation: z-in 1.5s forwards;
 }
 
 h2{
@@ -45,7 +59,7 @@ nav, ul{
     align-items: center;
     flex-direction: row;
     width: 100%;
-    background-color: aqua;
+    background-color: #eca740;
 }
 
 ul{
@@ -149,7 +163,7 @@ textarea{
     align-items: start;
     flex-direction: column;
     width: 90%;
-    background-color: aqua;
+    background-color: #eca740;
     padding: 20px;
     border-style: solid;
     border-color: black;
@@ -161,4 +175,13 @@ textarea{
     justify-content: start;
     align-items: start;
     width: auto;
+}
+
+.menu-btn{
+    transition: 0.5s;
+}
+
+.menu-btn:hover{
+    font-size: 30px;
+    color: #866431;
 }
