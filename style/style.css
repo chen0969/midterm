@@ -7,6 +7,16 @@
 }
 
 /* root setting */
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body, header, footer, #borad{
     display: flex;
     justify-content: center;
@@ -189,4 +199,17 @@ textarea{
     font-size: 30px;
     color: #866431;
     cursor: pointer;
+}
+
+.sticktop{
+    position: fixed;
+    top: 0;
+}
+
+.dontstick{
+    position: relative;
+}
+
+.hide{
+    display: none;
 }
