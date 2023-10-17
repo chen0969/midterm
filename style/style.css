@@ -40,6 +40,7 @@ header{
 
 footer{
     height: 20vh;
+    align-items: end;
 }
 
 
@@ -60,7 +61,7 @@ h2{
 }
 
 nav{
-    height: 10%;
+    height: 8vh;
 }
 
 nav, ul{
@@ -162,6 +163,20 @@ textarea{
     margin: 10px;
 }
 
+#submit{
+    background-color: #866431;
+    color: wheat;
+    border-radius: 10%;
+    font-family: 'Philosopher', sans-serif;
+    transition: 0.2s;
+}
+
+#submit:hover{
+    cursor: pointer;
+    font-weight: 600;
+    transform: scale(1.2);
+}
+
 /* class */
 
 .midline{
@@ -201,15 +216,8 @@ textarea{
     cursor: pointer;
 }
 
-.sticktop{
+.stick{
     position: fixed;
     top: 0;
-}
-
-.dontstick{
-    position: relative;
-}
-
-.hide{
-    display: none;
+    width: 80%;
 }
