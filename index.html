@@ -16,6 +16,10 @@
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script> -->
+    <script src="https://julian.com/research/velocity/vmd.min.js"></script>
+    <script src="function/functions.js"></script>
 </head>
 <body>
     <header>
@@ -24,11 +28,11 @@
         </div>
         <nav>
             <ul>
-                <li class="menu-btn">HOME</li>
+                <li class="menu-btn" id="btn-home">HOME</li>
+                <li class="midline" > </li>
+                <li class="menu-btn" id="btn-story">STORY</li>
                 <li class="midline"> </li>
-                <li class="menu-btn">STORY</li>
-                <li class="midline"> </li>
-                <li class="menu-btn">CONTACT</li>
+                <li class="menu-btn" id="btn-contact">CONTACT</li>
             </ul>
         </nav>
     </header>
@@ -36,7 +40,7 @@
         <div id="life-div">
             <!-- life -->
             <section>
-                <h2>Life of a Muffin</h2>
+                <h2 id="home">Life of a Muffin</h2>
                 <p> <img id="muffin-p" src="image/muffin-pic.jpg" alt="a cool muffin pic">Muffins, those delectable treats, 
                     come in a variety of flavors and styles to tantalize your taste buds. 
                     From classic blueberry muffins to rich chocolate chip delights, 
@@ -60,7 +64,7 @@
             </section>
             <!-- facts -->
             <section>
-                <h2>Facts about Muffin</h2>
+                <h2 id="story">Facts about Muffin</h2>
                     <ul id="lfm">
                         <li>Blueberry muffins, chocolate chip delights, zesty lemon poppy seed; muffin flavors for all.</li>
                         <li>Warm, moist banana nut muffin, or savory cornbread jalapeño twist; muffin creativity explored.</li>
@@ -69,7 +73,7 @@
             </section>
             <!-- form -->
             <section id="divofform">
-                <h2>Contact to learn more</h2>
+                <h2 id="contact">Contact to learn more</h2>
                 <div>
                     <form class="ct-f">
                         <!-- basic info -->
