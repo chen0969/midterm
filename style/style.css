@@ -222,6 +222,6 @@ textarea{
     width: 80%;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
     h1{font-size: 1.5rem;}
 }
