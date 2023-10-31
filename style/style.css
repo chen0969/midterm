@@ -6,7 +6,6 @@
     100%{opacity: 1; transform: scale(1);}
 }
 
-@media screen and (max-width: 360px) {
 /* root setting */
 
 html{
@@ -223,6 +222,6 @@ textarea{
     width: 80%;
 }
 
-
-
+@media screen and (min-width: 360px) {
+    h1{font-size: 1.5rem;}
 }
